@@ -36,7 +36,7 @@ public class Ticket{
     
     public int calculateTicketCost(int nooftickets){
         if(nooftickets<=getAvailableTickets()){
-            System.out.println("Available tickets: "+getAvailableTickets());
+            System.out.println("Available tickets: "+getAvailableTickets());        //can also use values directly without methods.
             availableTickets -= nooftickets;
             return nooftickets*getPrice();
         }else{
