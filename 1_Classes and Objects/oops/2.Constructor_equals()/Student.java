@@ -33,7 +33,9 @@ public class Student{
     }
     
     
-    
+    //Constructors:->
+    //They recieve values from object declared in main function,and they assign values to the data members.
+    //Later getter functions send the values from data members to the main function whenever asked.
     
        public Student(int id,String sName,String sAddress){
             studentId = id;
@@ -43,7 +45,7 @@ public class Student{
         }
     
     
-    public Student(int id,String sName,String sAddress,String cName){
+    public Student(int id,String sName,String sAddress,String cName){  
             studentId = id;
             studentName=sName;
             studentAddress = sAddress;
