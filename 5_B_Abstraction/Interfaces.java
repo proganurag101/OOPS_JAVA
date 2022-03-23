@@ -1,5 +1,5 @@
 interface Animal{
-    int eyes =2;  //will be final(fixed value),static(same for all animals),[public]
+    int eyes =2;  //will be final(fixed value),static(same for all animals),[public] by default
     void walk();  //by default public and abstract
 }
 
